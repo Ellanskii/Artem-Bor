@@ -1,0 +1,467 @@
+doctype html
+html
+    head
+        title Артём Бор
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, user-scalable=no')
+        link(rel='stylesheet', href='assets/css/main.css')
+        //if lte IE 9
+          link(rel='stylesheet', href='assets/css/ie9.css')
+        noscript
+            link(rel='stylesheet', href='assets/css/noscript.css')
+    body
+        // Wrapper
+        #wrapper
+            // Header
+            header#header
+                .logo
+                    span.icon.fa-instagram
+                .content
+                    .inner
+                        h1 Артём Бор
+                        p
+                            | Фотографирую. Иногда за деньги.
+                            //a(href='https://html5up.net') HTML5 UP
+                            //|  and released
+                            //br
+                            //| &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;for free under the
+                            //a(href='https://html5up.net/license') Creative Commons
+                            //|  license.
+                nav
+                    ul
+                        li
+                            a(href='#intro') Обо мне
+                        li
+                            a(href='#work') Работы
+                        li
+                            a(href='#about') Услуги
+                        li
+                            a(href='#contact') Пишите
+                        //<li><a href="#elements">Elements</a></li>
+            // Main
+            #main
+                // Intro
+                article#intro
+                    h2.major Это я
+                    span.image.main
+                        img(src='images/photos/me.jpg', alt='')
+                    blockquote
+                        p
+                            |Меня зовут Артём Бор, я простой белорусский парень, который фотографирует всякое. Зацените&nbsp;
+                            a(href='#work') мои работы
+                            | .
+                    p
+                        | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.
+                // Work
+                article#work
+                    h2.major Мои работы
+                    span.image.main.half
+                        img(src='images/pic02.jpg', alt='')
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    p
+                        | Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    p
+                        | Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.
+                // About
+                article#about
+                    h2.major Вот, что я делаю
+                    span.image.main
+                        img(src='images/photos/services.jpg', alt='')
+                    .table-wrapper
+                        table
+                            thead
+                                tr
+                                    th Работа
+                                    th Стоимость
+                            tbody
+                                tr
+                                    td Ante turpis integer aliquet porttitor.
+                                    td 29.99
+                                tr
+                                    td Vis ac commodo adipiscing arcu aliquet.
+                                    td 19.99
+                                tr
+                                    td  Morbi faucibus arcu accumsan lorem.
+                                    td 29.99
+                                tr
+                                    td Vitae integer tempus condimentum.
+                                    td 19.99
+                                tr
+                                    td Ante turpis integer aliquet porttitor.
+                                    td 29.99
+                // Contact
+                article#contact
+                    h2.major Contact
+                    span.image.main
+                        img(src='images/photos/contacts.jpg', alt='')
+                    form(method='post', action='#')
+                        .field.half.first
+                            label(for='name') Имя
+                            input#name(type='text', name='name')
+                        .field.half
+                            label(for='email') Email
+                            input#email(type='text', name='email')
+                        .field
+                            label(for='message') Всё, что угодно...
+                            textarea#message(name='message', rows='4')
+                        ul.actions
+                            li
+                                input.special(type='submit', value='Отправить')
+                            li
+                                input(type='reset', value='Стереть')
+                    ul.icons
+                        li
+                            a.icon.fa-twitter(href='#')
+                                span.label Twitter
+                        li
+                            a.icon.fa-facebook(href='#')
+                                span.label Facebook
+                        li
+                            a.icon.fa-instagram(href='#')
+                                span.label Instagram
+                        li
+                            a.icon.fa-vk(href='#')
+                                span.label VK
+                // Elements
+                article#elements
+                    h2.major Elements
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    section
+                        h3.major Text
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        p
+                            | This is
+                            b bold
+                            |  and this is
+                            strong strong
+                            | . This is
+                            i italic
+                            |  and this is
+                            em emphasized
+                            | .
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;This is
+                            sup superscript
+                            |  text and this is
+                            sub subscript
+                            |  text.
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;This is
+                            u underlined
+                            |  and this is code:
+                            code for (;;) { ... }
+                            | . Finally,
+                            a(href='#') this is a link
+                            | .
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        hr
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        h2 Heading Level 2
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        h3 Heading Level 3
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        h4 Heading Level 4
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        h5 Heading Level 5
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        h6 Heading Level 6
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        hr
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        h4 Blockquote
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        blockquote
+                            | Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        h4 Preformatted
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        pre.
+
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    section
+                        h3.major Lists
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        h4 Unordered
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        ul
+                            li Dolor pulvinar etiam.
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            li Sagittis adipiscing.
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            li Felis enim feugiat.
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        h4 Alternate
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        ul.alt
+                            li Dolor pulvinar etiam.
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            li Sagittis adipiscing.
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            li Felis enim feugiat.
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        h4 Ordered
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        ol
+                            li Dolor pulvinar etiam.
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            li Etiam vel felis viverra.
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            li Felis enim feugiat.
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            li Dolor pulvinar etiam.
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            li Etiam vel felis lorem.
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            li Felis enim et feugiat.
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        h4 Icons
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        ul.icons
+                            li
+                                a.icon.fa-twitter(href='#')
+                                    span.label Twitter
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            li
+                                a.icon.fa-facebook(href='#')
+                                    span.label Facebook
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            li
+                                a.icon.fa-instagram(href='#')
+                                    span.label Instagram
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            li
+                                a.icon.fa-github(href='#')
+                                    span.label Github
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        h4 Actions
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        ul.actions
+                            li
+                                a.button.special(href='#') Default
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            li
+                                a.button(href='#') Default
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        ul.actions.vertical
+                            li
+                                a.button.special(href='#') Default
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            li
+                                a.button(href='#') Default
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    section
+                        h3.major Table
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        h4 Default
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        .table-wrapper
+                            table
+                                thead
+                                    tr
+                                        th Name
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        th Description
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        th Price
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                tbody
+                                    tr
+                                        td Item One
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        td Ante turpis integer aliquet porttitor.
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        td 29.99
+                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    tr
+                                        td Item Two
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        td Vis ac commodo adipiscing arcu aliquet.
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        td 19.99
+                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    tr
+                                        td Item Three
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        td  Morbi faucibus arcu accumsan lorem.
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        td 29.99
+                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    tr
+                                        td Item Four
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        td Vitae integer tempus condimentum.
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        td 19.99
+                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    tr
+                                        td Item Five
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        td Ante turpis integer aliquet porttitor.
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        td 29.99
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                tfoot
+                                    tr
+                                        td(colspan='2')
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        td 100.00
+                        h4 Alternate
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        .table-wrapper
+                            table.alt
+                                thead
+                                    tr
+                                        th Name
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        th Description
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        th Price
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                tbody
+                                    tr
+                                        td Item One
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        td Ante turpis integer aliquet porttitor.
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        td 29.99
+                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    tr
+                                        td Item Two
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        td Vis ac commodo adipiscing arcu aliquet.
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        td 19.99
+                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    tr
+                                        td Item Three
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        td  Morbi faucibus arcu accumsan lorem.
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        td 29.99
+                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    tr
+                                        td Item Four
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        td Vitae integer tempus condimentum.
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        td 19.99
+                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    tr
+                                        td Item Five
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        td Ante turpis integer aliquet porttitor.
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        td 29.99
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                tfoot
+                                    tr
+                                        td(colspan='2')
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        td 100.00
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    section
+                        h3.major Buttons
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        ul.actions
+                            li
+                                a.button.special(href='#') Special
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            li
+                                a.button(href='#') Default
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        ul.actions
+                            li
+                                a.button(href='#') Default
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            li
+                                a.button.small(href='#') Small
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        ul.actions
+                            li
+                                a.button.special.icon.fa-download(href='#') Icon
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            li
+                                a.button.icon.fa-download(href='#') Icon
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        ul.actions
+                            li
+                                span.button.special.disabled Disabled
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            li
+                                span.button.disabled Disabled
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                    section
+                        h3.major Form
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                        form(method='post', action='#')
+                            .field.half.first
+                                label(for='demo-name') Name
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                input#demo-name(type='text', name='demo-name', value='', placeholder='Jane Doe')
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            .field.half
+                                label(for='demo-email') Email
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                input#demo-email(type='email', name='demo-email', value='', placeholder='jane@untitled.tld')
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            .field
+                                label(for='demo-category') Category
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                .select-wrapper
+                                    select#demo-category(name='demo-category')
+                                        option(value='') -
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        option(value='1') Manufacturing
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        option(value='1') Shipping
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        option(value='1') Administration
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        option(value='1') Human Resources
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            .field.half.first
+                                input#demo-priority-low(type='radio', name='demo-priority', checked='')
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                label(for='demo-priority-low') Low
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            .field.half
+                                input#demo-priority-high(type='radio', name='demo-priority')
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                label(for='demo-priority-high') High
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            .field.half.first
+                                input#demo-copy(type='checkbox', name='demo-copy')
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                label(for='demo-copy') Email me a copy
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            .field.half
+                                input#demo-human(type='checkbox', name='demo-human', checked='')
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                label(for='demo-human') Not a robot
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            .field
+                                label(for='demo-message') Message
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                textarea#demo-message(name='demo-message', placeholder='Enter your message', rows='6')
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            ul.actions
+                                li
+                                    input.special(type='submit', value='Send Message')
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                li
+                                    input(type='reset', value='Reset')
+            // Footer
+            footer#footer
+                p.copyright
+                    | &copy; Untitled. Design:
+                    a(href='https://html5up.net') HTML5 UP
+                    | .
+        // BG
+        #bg
+        // Scripts
+        script(src='assets/js/jquery.min.js')
+        | &#x9;&#x9;&#x9;
+        script(src='assets/js/skel.min.js')
+        | &#x9;&#x9;&#x9;
+        script(src='assets/js/util.js')
+        | &#x9;&#x9;&#x9;
+        script(src='assets/js/main.js')
